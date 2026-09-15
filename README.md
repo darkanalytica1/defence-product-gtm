@@ -18,6 +18,31 @@ who built it have retired.
 
 This guide is about what replaces those assumptions.
 
+
+## Where the deal is actually decided
+
+Commercial instinct treats the published tender as the start of the sale. In
+defence it is close to the end. The influence happens upstream, while the
+requirement is still being written.
+
+```mermaid
+flowchart LR
+    A[Capability gap] --> B[Options analysed]
+    B --> C[Requirement written<br/>the decisive moment]
+    C --> D[Acquisition strategy]
+    D --> E[Market engaged]
+    E --> F[Tender published]
+    F --> G[Award + support tail]
+    C -.->|shape it here| WIN{{Win probability set}}
+    F -.->|compete here, already late| WIN
+    style C fill:#0074F4,color:#fff
+    style WIN fill:#1f9d55,color:#fff
+```
+
+By the published-tender stage you are competing on price and compliance against
+a specification you did not shape. The whole guide is about getting upstream of
+that blue box.
+
 ## Who this is for
 
 - Product managers joining a defence technology company from commercial software.
