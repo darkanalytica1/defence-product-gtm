@@ -2,7 +2,7 @@
   <title id="t">From capability gap to contract</title>
   <desc id="d">Eight steps from a change in the world to a contract award. Supplier influence is high in steps two to four and decisive at step four, where the requirement is written; by the tender, the useful work is done.</desc>
   <style>
-    .serif { font-family: 'Source Serif 4', 'Source Serif Pro', Georgia, 'Times New Roman', serif; }
+    .display { font-family: 'IBM Plex Sans', system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; letter-spacing: -0.01em; }
     .sans  { font-family: 'IBM Plex Sans', system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; }
     .mono  { font-family: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
     .flow  { stroke-dasharray: 6 6; animation: flow 3s linear infinite; }
@@ -11,88 +11,88 @@
     @keyframes pulse { 0%, 100% { opacity: .5 } 35% { opacity: 1 } }
     @media (prefers-reduced-motion: reduce) { * { animation: none !important } }
   </style>
-  <rect width="1200" height="530" fill="#F6F4EF"/>
-  <text x="48" y="52" class="mono" font-size="12" letter-spacing="1.2" fill="#7A8088">FIG. 2  ·  FROM CAPABILITY GAP TO CONTRACT</text>
-  <text x="48" y="94" class="serif" font-size="26" font-weight="600" fill="#1B1F24">The competition is shaped at step four, long before the tender</text>
+  <rect width="1200" height="530" fill="#F5F7FA"/>
+  <text x="48" y="52" class="mono" font-size="12" letter-spacing="1.2" fill="#6B7688">FIG. 2  ·  FROM CAPABILITY GAP TO CONTRACT</text>
+  <text x="48" y="94" class="display" font-size="26" font-weight="600" fill="#0E1726">The competition is shaped at step four, long before the tender</text>
 
   <!-- influence window behind steps 2-4 -->
-  <rect class="window" x="318" y="136" width="841" height="134" rx="6" fill="#F6E9E6"/>
-  <text x="1149" y="128" class="mono" font-size="12" fill="#A33A2B" text-anchor="end">INFLUENCE WINDOW  ·  STEPS 02 TO 04</text>
+  <rect class="window" x="318" y="136" width="841" height="134" rx="6" fill="#F4EFE2"/>
+  <text x="1149" y="128" class="mono" font-size="12" fill="#8A6A1F" text-anchor="end">INFLUENCE WINDOW  ·  STEPS 02 TO 04</text>
 
   <!-- flow path -->
-  <path class="flow" d="M48,286 H1149 V306 H36 V456 H1149" fill="none" stroke="#5B7083" stroke-width="1.75"/>
-  <circle r="5.5" fill="#1F3A5F" stroke="#fff" stroke-width="1.5">
+  <path class="flow" d="M48,286 H1149 V306 H36 V456 H1149" fill="none" stroke="#3E5C76" stroke-width="1.75"/>
+  <circle r="5.5" fill="#0B2545" stroke="#fff" stroke-width="1.5">
     <animateMotion dur="10s" repeatCount="indefinite" path="M48,286 H1149 V306 H36 V456 H1149"/>
   </circle>
 
-  <g class="sans" fill="#1B1F24">
+  <g class="sans" fill="#0E1726">
     <!-- row 1 -->
     <g>
-      <rect x="48" y="150" width="261" height="110" rx="4" fill="#fff" stroke="#DAD6CC" stroke-width="1.5"/>
-      <rect x="48" y="150" width="261" height="3" fill="#5B7083"/>
-      <text x="66" y="178" class="mono" font-size="12" fill="#7A8088">01</text>
-      <text x="291" y="178" class="mono" font-size="11" fill="#7A8088" text-anchor="end">TRIGGER</text>
+      <rect x="48" y="150" width="261" height="110" rx="4" fill="#fff" stroke="#D8DEE6" stroke-width="1.5"/>
+      <rect x="48" y="150" width="261" height="3" fill="#3E5C76"/>
+      <text x="66" y="178" class="mono" font-size="12" fill="#6B7688">01</text>
+      <text x="291" y="178" class="mono" font-size="11" fill="#6B7688" text-anchor="end">TRIGGER</text>
       <text x="66" y="208" font-size="16" font-weight="600">Something changes</text>
-      <text x="66" y="236" font-size="13" fill="#4A5058">threat, lesson, ageing platform, policy</text>
+      <text x="66" y="236" font-size="13" fill="#3D4A5C">threat, lesson, ageing platform, policy</text>
     </g>
     <g>
-      <rect x="328" y="150" width="261" height="110" rx="4" fill="#fff" stroke="#DAD6CC" stroke-width="1.5"/>
-      <rect x="328" y="150" width="261" height="3" fill="#1F3A5F"/>
-      <text x="346" y="178" class="mono" font-size="12" fill="#7A8088">02</text>
-      <text x="571" y="178" class="mono" font-size="11" fill="#A33A2B" text-anchor="end">HIGH</text>
+      <rect x="328" y="150" width="261" height="110" rx="4" fill="#fff" stroke="#D8DEE6" stroke-width="1.5"/>
+      <rect x="328" y="150" width="261" height="3" fill="#0B2545"/>
+      <text x="346" y="178" class="mono" font-size="12" fill="#6B7688">02</text>
+      <text x="571" y="178" class="mono" font-size="11" fill="#8A6A1F" text-anchor="end">HIGH</text>
       <text x="346" y="208" font-size="16" font-weight="600">Gap identified</text>
-      <text x="346" y="236" font-size="13" fill="#4A5058">described as an effect, not equipment</text>
+      <text x="346" y="236" font-size="13" fill="#3D4A5C">described as an effect, not equipment</text>
     </g>
     <g>
-      <rect x="608" y="150" width="261" height="110" rx="4" fill="#fff" stroke="#DAD6CC" stroke-width="1.5"/>
-      <rect x="608" y="150" width="261" height="3" fill="#1F3A5F"/>
-      <text x="626" y="178" class="mono" font-size="12" fill="#7A8088">03</text>
-      <text x="851" y="178" class="mono" font-size="11" fill="#A33A2B" text-anchor="end">HIGH</text>
+      <rect x="608" y="150" width="261" height="110" rx="4" fill="#fff" stroke="#D8DEE6" stroke-width="1.5"/>
+      <rect x="608" y="150" width="261" height="3" fill="#0B2545"/>
+      <text x="626" y="178" class="mono" font-size="12" fill="#6B7688">03</text>
+      <text x="851" y="178" class="mono" font-size="11" fill="#8A6A1F" text-anchor="end">HIGH</text>
       <text x="626" y="208" font-size="16" font-weight="600">Options analysed</text>
-      <text x="626" y="236" font-size="13" fill="#4A5058">process, training, modify, or buy</text>
+      <text x="626" y="236" font-size="13" fill="#3D4A5C">process, training, modify, or buy</text>
     </g>
     <g>
-      <rect x="888" y="150" width="261" height="110" rx="4" fill="#fff" stroke="#A33A2B" stroke-width="1.75"/>
-      <rect x="888" y="150" width="261" height="3" fill="#A33A2B"/>
-      <text x="906" y="178" class="mono" font-size="12" fill="#A33A2B">04</text>
-      <text x="1131" y="178" class="mono" font-size="11" fill="#A33A2B" text-anchor="end">DECISIVE</text>
+      <rect x="888" y="150" width="261" height="110" rx="4" fill="#fff" stroke="#8A6A1F" stroke-width="1.75"/>
+      <rect x="888" y="150" width="261" height="3" fill="#8A6A1F"/>
+      <text x="906" y="178" class="mono" font-size="12" fill="#8A6A1F">04</text>
+      <text x="1131" y="178" class="mono" font-size="11" fill="#8A6A1F" text-anchor="end">DECISIVE</text>
       <text x="906" y="208" font-size="16" font-weight="600">Requirement written</text>
-      <text x="906" y="236" font-size="13" fill="#4A5058">thresholds and objectives fixed</text>
+      <text x="906" y="236" font-size="13" fill="#3D4A5C">thresholds and objectives fixed</text>
     </g>
     <!-- row 2 -->
     <g>
-      <rect x="48" y="330" width="261" height="110" rx="4" fill="#fff" stroke="#DAD6CC" stroke-width="1.5"/>
-      <rect x="48" y="330" width="261" height="3" fill="#5B7083"/>
-      <text x="66" y="358" class="mono" font-size="12" fill="#7A8088">05</text>
-      <text x="291" y="358" class="mono" font-size="11" fill="#7A8088" text-anchor="end">LIMITED</text>
+      <rect x="48" y="330" width="261" height="110" rx="4" fill="#fff" stroke="#D8DEE6" stroke-width="1.5"/>
+      <rect x="48" y="330" width="261" height="3" fill="#3E5C76"/>
+      <text x="66" y="358" class="mono" font-size="12" fill="#6B7688">05</text>
+      <text x="291" y="358" class="mono" font-size="11" fill="#6B7688" text-anchor="end">LIMITED</text>
       <text x="66" y="388" font-size="16" font-weight="600">Acquisition strategy</text>
-      <text x="66" y="416" font-size="13" fill="#4A5058">competition, framework, sole source</text>
+      <text x="66" y="416" font-size="13" fill="#3D4A5C">competition, framework, sole source</text>
     </g>
     <g>
-      <rect x="328" y="330" width="261" height="110" rx="4" fill="#fff" stroke="#DAD6CC" stroke-width="1.5"/>
-      <rect x="328" y="330" width="261" height="3" fill="#5B7083"/>
-      <text x="346" y="358" class="mono" font-size="12" fill="#7A8088">06</text>
-      <text x="571" y="358" class="mono" font-size="11" fill="#7A8088" text-anchor="end">LIMITED</text>
+      <rect x="328" y="330" width="261" height="110" rx="4" fill="#fff" stroke="#D8DEE6" stroke-width="1.5"/>
+      <rect x="328" y="330" width="261" height="3" fill="#3E5C76"/>
+      <text x="346" y="358" class="mono" font-size="12" fill="#6B7688">06</text>
+      <text x="571" y="358" class="mono" font-size="11" fill="#6B7688" text-anchor="end">LIMITED</text>
       <text x="346" y="388" font-size="16" font-weight="600">Market engaged</text>
-      <text x="346" y="416" font-size="13" fill="#4A5058">RFIs, industry days, notices</text>
+      <text x="346" y="416" font-size="13" fill="#3D4A5C">RFIs, industry days, notices</text>
     </g>
     <g>
-      <rect x="608" y="330" width="261" height="110" rx="4" fill="#fff" stroke="#DAD6CC" stroke-width="1.5"/>
-      <rect x="608" y="330" width="261" height="3" fill="#5B7083"/>
-      <text x="626" y="358" class="mono" font-size="12" fill="#7A8088">07</text>
-      <text x="851" y="358" class="mono" font-size="11" fill="#7A8088" text-anchor="end">LOW</text>
+      <rect x="608" y="330" width="261" height="110" rx="4" fill="#fff" stroke="#D8DEE6" stroke-width="1.5"/>
+      <rect x="608" y="330" width="261" height="3" fill="#3E5C76"/>
+      <text x="626" y="358" class="mono" font-size="12" fill="#6B7688">07</text>
+      <text x="851" y="358" class="mono" font-size="11" fill="#6B7688" text-anchor="end">LOW</text>
       <text x="626" y="388" font-size="16" font-weight="600">Tender issued</text>
-      <text x="626" y="416" font-size="13" fill="#4A5058">price, compliance, delivery confidence</text>
+      <text x="626" y="416" font-size="13" fill="#3D4A5C">price, compliance, delivery confidence</text>
     </g>
     <g>
-      <rect x="888" y="330" width="261" height="110" rx="4" fill="#fff" stroke="#DAD6CC" stroke-width="1.5"/>
-      <rect x="888" y="330" width="261" height="3" fill="#5B7083"/>
-      <text x="906" y="358" class="mono" font-size="12" fill="#7A8088">08</text>
-      <text x="1131" y="358" class="mono" font-size="11" fill="#7A8088" text-anchor="end">LOW</text>
+      <rect x="888" y="330" width="261" height="110" rx="4" fill="#fff" stroke="#D8DEE6" stroke-width="1.5"/>
+      <rect x="888" y="330" width="261" height="3" fill="#3E5C76"/>
+      <text x="906" y="358" class="mono" font-size="12" fill="#6B7688">08</text>
+      <text x="1131" y="358" class="mono" font-size="11" fill="#6B7688" text-anchor="end">LOW</text>
       <text x="906" y="388" font-size="16" font-weight="600">Contract awarded</text>
-      <text x="906" y="416" font-size="13" fill="#4A5058">with support and upgrade options</text>
+      <text x="906" y="416" font-size="13" fill="#3D4A5C">with support and upgrade options</text>
     </g>
   </g>
 
-  <text x="48" y="500" class="mono" font-size="12" fill="#7A8088">INFLUENCE LEVELS ARE QUALITATIVE.  NAMES AND SEQUENCE VARY BY COUNTRY AND PROGRAMME.  SOURCE: docs/03</text>
+  <text x="48" y="500" class="mono" font-size="12" fill="#6B7688">INFLUENCE LEVELS ARE QUALITATIVE.  NAMES AND SEQUENCE VARY BY COUNTRY AND PROGRAMME.  SOURCE: docs/03</text>
 </svg>

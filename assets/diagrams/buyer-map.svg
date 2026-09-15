@@ -2,7 +2,7 @@
   <title id="t">The buyer is five people</title>
   <desc id="d">Four roles in sequence: user, requirement owner, acquirer, budget holder, each with what they care about, what they can do and what they cannot. The assurer sits across the whole chain and can stop it at any point. The incumbent prime is a sixth, gatekeeping role.</desc>
   <style>
-    .serif { font-family: 'Source Serif 4', 'Source Serif Pro', Georgia, 'Times New Roman', serif; }
+    .display { font-family: 'IBM Plex Sans', system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; letter-spacing: -0.01em; }
     .sans  { font-family: 'IBM Plex Sans', system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; }
     .mono  { font-family: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
     .flow  { stroke-dasharray: 6 6; animation: flow 3s linear infinite; }
@@ -12,88 +12,88 @@
     @keyframes check { 0%, 100% { stroke-opacity: .2 } 15% { stroke-opacity: 1 } 35% { stroke-opacity: .2 } }
     @media (prefers-reduced-motion: reduce) { * { animation: none !important } }
   </style>
-  <rect width="1200" height="530" fill="#F6F4EF"/>
-  <text x="48" y="52" class="mono" font-size="12" letter-spacing="1.2" fill="#7A8088">FIG. 1  ·  BUYER-ROLE MAP</text>
-  <text x="48" y="94" class="serif" font-size="26" font-weight="600" fill="#1B1F24">The buyer is five people, and none of them can close alone</text>
+  <rect width="1200" height="530" fill="#F5F7FA"/>
+  <text x="48" y="52" class="mono" font-size="12" letter-spacing="1.2" fill="#6B7688">FIG. 1  ·  BUYER-ROLE MAP</text>
+  <text x="48" y="94" class="display" font-size="26" font-weight="600" fill="#0E1726">The buyer is five people, and none of them can close alone</text>
 
   <!-- role cards -->
-  <g class="sans" font-size="14" fill="#1B1F24">
+  <g class="sans" font-size="14" fill="#0E1726">
     <g>
-      <rect x="48" y="140" width="261" height="200" rx="4" fill="#fff" stroke="#DAD6CC" stroke-width="1.5"/>
-      <rect x="48" y="140" width="261" height="3" fill="#1F3A5F"/>
-      <text x="66" y="170" class="mono" font-size="12" letter-spacing="1" fill="#1F3A5F">01  USER</text>
-      <text x="66" y="200" class="mono" font-size="11" fill="#7A8088">CARES ABOUT</text>
+      <rect x="48" y="140" width="261" height="200" rx="4" fill="#fff" stroke="#D8DEE6" stroke-width="1.5"/>
+      <rect x="48" y="140" width="261" height="3" fill="#0B2545"/>
+      <text x="66" y="170" class="mono" font-size="12" letter-spacing="1" fill="#0B2545">01  USER</text>
+      <text x="66" y="200" class="mono" font-size="11" fill="#6B7688">CARES ABOUT</text>
       <text x="66" y="222">Does this help me do the job,</text>
       <text x="66" y="242">under stress, at night, in rain</text>
-      <text x="66" y="290" class="mono" font-size="11" fill="#5E7F68">CAN</text>
+      <text x="66" y="290" class="mono" font-size="11" fill="#2F6F73">CAN</text>
       <text x="122" y="290">advocate credibly</text>
-      <text x="66" y="318" class="mono" font-size="11" fill="#7A8088">CANNOT</text>
+      <text x="66" y="318" class="mono" font-size="11" fill="#6B7688">CANNOT</text>
       <text x="122" y="318">spend money</text>
     </g>
     <g>
-      <rect x="328" y="140" width="261" height="200" rx="4" fill="#fff" stroke="#A33A2B" stroke-width="1.5"/>
-      <rect x="328" y="140" width="261" height="3" fill="#A33A2B"/>
-      <text x="346" y="170" class="mono" font-size="12" letter-spacing="1" fill="#A33A2B">02  REQUIREMENT OWNER</text>
-      <text x="346" y="200" class="mono" font-size="11" fill="#7A8088">CARES ABOUT</text>
+      <rect x="328" y="140" width="261" height="200" rx="4" fill="#fff" stroke="#8A6A1F" stroke-width="1.5"/>
+      <rect x="328" y="140" width="261" height="3" fill="#8A6A1F"/>
+      <text x="346" y="170" class="mono" font-size="12" letter-spacing="1" fill="#8A6A1F">02  REQUIREMENT OWNER</text>
+      <text x="346" y="200" class="mono" font-size="11" fill="#6B7688">CARES ABOUT</text>
       <text x="346" y="222">Does this address the</text>
       <text x="346" y="242">documented capability gap</text>
-      <text x="346" y="290" class="mono" font-size="11" fill="#5E7F68">CAN</text>
+      <text x="346" y="290" class="mono" font-size="11" fill="#2F6F73">CAN</text>
       <text x="402" y="290">shape the written need</text>
-      <text x="346" y="318" class="mono" font-size="11" fill="#7A8088">CANNOT</text>
+      <text x="346" y="318" class="mono" font-size="11" fill="#6B7688">CANNOT</text>
       <text x="402" y="318">buy anything directly</text>
     </g>
     <g>
-      <rect x="608" y="140" width="261" height="200" rx="4" fill="#fff" stroke="#DAD6CC" stroke-width="1.5"/>
-      <rect x="608" y="140" width="261" height="3" fill="#1F3A5F"/>
-      <text x="626" y="170" class="mono" font-size="12" letter-spacing="1" fill="#1F3A5F">03  ACQUIRER</text>
-      <text x="626" y="200" class="mono" font-size="11" fill="#7A8088">CARES ABOUT</text>
+      <rect x="608" y="140" width="261" height="200" rx="4" fill="#fff" stroke="#D8DEE6" stroke-width="1.5"/>
+      <rect x="608" y="140" width="261" height="3" fill="#0B2545"/>
+      <text x="626" y="170" class="mono" font-size="12" letter-spacing="1" fill="#0B2545">03  ACQUIRER</text>
+      <text x="626" y="200" class="mono" font-size="11" fill="#6B7688">CARES ABOUT</text>
       <text x="626" y="222">Can I run a defensible</text>
       <text x="626" y="242">competition, on schedule</text>
-      <text x="626" y="290" class="mono" font-size="11" fill="#5E7F68">CAN</text>
+      <text x="626" y="290" class="mono" font-size="11" fill="#2F6F73">CAN</text>
       <text x="682" y="290">set the evaluation criteria</text>
-      <text x="626" y="318" class="mono" font-size="11" fill="#7A8088">CANNOT</text>
+      <text x="626" y="318" class="mono" font-size="11" fill="#6B7688">CANNOT</text>
       <text x="682" y="318">change what was asked for</text>
     </g>
     <g>
-      <rect x="888" y="140" width="261" height="200" rx="4" fill="#fff" stroke="#DAD6CC" stroke-width="1.5"/>
-      <rect x="888" y="140" width="261" height="3" fill="#1F3A5F"/>
-      <text x="906" y="170" class="mono" font-size="12" letter-spacing="1" fill="#1F3A5F">04  BUDGET HOLDER</text>
-      <text x="906" y="200" class="mono" font-size="11" fill="#7A8088">CARES ABOUT</text>
+      <rect x="888" y="140" width="261" height="200" rx="4" fill="#fff" stroke="#D8DEE6" stroke-width="1.5"/>
+      <rect x="888" y="140" width="261" height="3" fill="#0B2545"/>
+      <text x="906" y="170" class="mono" font-size="12" letter-spacing="1" fill="#0B2545">04  BUDGET HOLDER</text>
+      <text x="906" y="200" class="mono" font-size="11" fill="#6B7688">CARES ABOUT</text>
       <text x="906" y="222">Does it fit the plan, and what</text>
       <text x="906" y="242">does it cost over its life</text>
-      <text x="906" y="290" class="mono" font-size="11" fill="#5E7F68">CAN</text>
+      <text x="906" y="290" class="mono" font-size="11" fill="#2F6F73">CAN</text>
       <text x="962" y="290">fund it, or not</text>
-      <text x="906" y="318" class="mono" font-size="11" fill="#7A8088">CANNOT</text>
+      <text x="906" y="318" class="mono" font-size="11" fill="#6B7688">CANNOT</text>
       <text x="962" y="318">evaluate your technology</text>
     </g>
   </g>
 
   <!-- chain -->
   <g stroke-width="1.5">
-    <line x1="178" y1="340" x2="178" y2="366" stroke="#DAD6CC"/>
-    <line x1="458" y1="340" x2="458" y2="366" stroke="#DAD6CC"/>
-    <line x1="738" y1="340" x2="738" y2="366" stroke="#DAD6CC"/>
-    <line x1="1018" y1="340" x2="1018" y2="366" stroke="#DAD6CC"/>
+    <line x1="178" y1="340" x2="178" y2="366" stroke="#D8DEE6"/>
+    <line x1="458" y1="340" x2="458" y2="366" stroke="#D8DEE6"/>
+    <line x1="738" y1="340" x2="738" y2="366" stroke="#D8DEE6"/>
+    <line x1="1018" y1="340" x2="1018" y2="366" stroke="#D8DEE6"/>
   </g>
-  <line x1="178" y1="366" x2="458" y2="366" stroke="#A33A2B" stroke-width="1.75" stroke-opacity=".75" class="flow"/>
-  <line x1="458" y1="366" x2="1096" y2="366" stroke="#5B7083" stroke-width="1.75" class="flow"/>
-  <path d="M1096,360 L1108,366 L1096,372 Z" fill="#5B7083"/>
-  <text x="1120" y="370" class="mono" font-size="11" fill="#4A5058">FUNDED</text>
-  <text x="196" y="386" class="mono" font-size="11" fill="#A33A2B">feedback becomes the argument</text>
-  <circle r="5.5" fill="#1F3A5F" stroke="#fff" stroke-width="1.5">
+  <line x1="178" y1="366" x2="458" y2="366" stroke="#8A6A1F" stroke-width="1.75" stroke-opacity=".75" class="flow"/>
+  <line x1="458" y1="366" x2="1096" y2="366" stroke="#3E5C76" stroke-width="1.75" class="flow"/>
+  <path d="M1096,360 L1108,366 L1096,372 Z" fill="#3E5C76"/>
+  <text x="1120" y="370" class="mono" font-size="11" fill="#3D4A5C">FUNDED</text>
+  <text x="196" y="386" class="mono" font-size="11" fill="#8A6A1F">feedback becomes the argument</text>
+  <circle r="5.5" fill="#0B2545" stroke="#fff" stroke-width="1.5">
     <animateMotion dur="7s" repeatCount="indefinite" path="M178,366 L1100,366"/>
   </circle>
 
   <!-- assurer checks across the chain -->
-  <g stroke="#B8872B" stroke-width="1.75" stroke-dasharray="3 4">
+  <g stroke="#B7791F" stroke-width="1.75" stroke-dasharray="3 4">
     <line class="check" x1="318" y1="372" x2="318" y2="404"/>
     <line class="check c2" x1="598" y1="372" x2="598" y2="404"/>
     <line class="check c3" x1="878" y1="372" x2="878" y2="404"/>
   </g>
-  <rect x="48" y="404" width="1101" height="62" rx="4" fill="#fff" stroke="#DAD6CC" stroke-width="1.5"/>
-  <rect x="48" y="404" width="1101" height="3" fill="#B8872B"/>
-  <text x="66" y="432" class="mono" font-size="12" letter-spacing="1" fill="#8A6420">05  ASSURER</text>
-  <text x="66" y="454" class="sans" font-size="14" fill="#1B1F24">Is it safe, secure, certifiable and supportable?  Can stop everything, at any point.  Cannot champion you.  Engage early.</text>
+  <rect x="48" y="404" width="1101" height="62" rx="4" fill="#fff" stroke="#D8DEE6" stroke-width="1.5"/>
+  <rect x="48" y="404" width="1101" height="3" fill="#B7791F"/>
+  <text x="66" y="432" class="mono" font-size="12" letter-spacing="1" fill="#875A16">05  ASSURER</text>
+  <text x="66" y="454" class="sans" font-size="14" fill="#0E1726">Is it safe, secure, certifiable and supportable?  Can stop everything, at any point.  Cannot champion you.  Engage early.</text>
 
-  <text x="48" y="504" class="mono" font-size="12" fill="#7A8088">SIXTH ROLE, NOT A BUYER: THE INCUMBENT PRIME, OFTEN THE ACTUAL CUSTOMER FOR A SMALLER SUPPLIER.  SOURCE: docs/02</text>
+  <text x="48" y="504" class="mono" font-size="12" fill="#6B7688">SIXTH ROLE, NOT A BUYER: THE INCUMBENT PRIME, OFTEN THE ACTUAL CUSTOMER FOR A SMALLER SUPPLIER.  SOURCE: docs/02</text>
 </svg>
